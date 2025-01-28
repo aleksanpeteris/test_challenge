@@ -25,6 +25,12 @@ You need to run the server by following the instructions provided in the attache
 - No progress bar is shown during the upload process.
 - Files uploaded checks are implemented via script and documents API
 
+#### Only very initial implementation of the tests is done using Playwright and TS:
+- Playwright initialization
+- Test to open, upload, process and delete the file via UI
+- TODO more tests, prettify the code.
+
+
 ### 4. Open the Chat:
 - Open the chat interface where the chatbot is located.
 - Verify that the chat is loading correctly and is ready to receive input.
