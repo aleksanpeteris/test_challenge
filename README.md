@@ -7,6 +7,16 @@
     environment:
       - OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
 ```
+or you can set the environment variable in your system to prevent storing secrets as raw text. 
+
+```bash
+export CHALLENGE_OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
+```
+and use it in the `docker-compose.yml` file as follows:
+```yaml
+    environment:
+      - OPENAI_API_KEY=${CHALLENGE_OPENAI_API_KEY}
+```
 
 
 2. In the root directory of the project, run the following command:

@@ -12,7 +12,7 @@ services:
     environment:
       - MONGO_URI=mongodb://user:pass@mongodbatlas:27017/?directConnection=true
       - ENV=LOCAL
-      #- OPENAI_API_KEY=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
+      - OPENAI_API_KEY=${CHALLENGE_OPENAI_API_KEY}
       - AWS_ACCESS_KEY_ID=test
       - AWS_SECRET_ACCESS_KEY=test
       - AWS_DEFAULT_REGION=ap-south-1
