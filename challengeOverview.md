@@ -20,6 +20,11 @@ You need to run the server by following the instructions provided in the attache
 - Call the file upload API to make sure that the upload is completed.
 - If the application provides progress indicators, ensure the status is properly tracked during the upload.
 
+#### Observations:
+- It's possible to upload the same file multiple times. It doesn't make any sense.
+- No progress bar is shown during the upload process.
+- Files uploaded checks are implemented via script and documents API
+
 ### 4. Open the Chat:
 - Open the chat interface where the chatbot is located.
 - Verify that the chat is loading correctly and is ready to receive input.
